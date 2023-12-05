@@ -1,4 +1,4 @@
-function calculo()
+function Calcular()
 {
     var a300 = Number(document.getElementById("A300ml").value);
     var a600 = Number(document.getElementById("A600ml").value);
