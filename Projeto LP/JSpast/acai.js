@@ -14,3 +14,4 @@ function Calcular()
         alert("Total de litros em compra: "+resultado+"Litros");
     }
 }
+//criei a função com if para calcular os ml e se passasse de 1000 ml era convertido em litros

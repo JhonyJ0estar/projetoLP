@@ -8,3 +8,4 @@ function calcular()
     var result = (shake300*preco300)+(shake500*preco500);
     alert("O preço é de R$"+result+" Reais");
 }
+//criei a função para calcular os preço dos milkshake
