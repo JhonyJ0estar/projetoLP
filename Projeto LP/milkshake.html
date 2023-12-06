@@ -8,10 +8,9 @@
         {
            text-align: center;
         }
-        h1:hover
+        h1
         {
             background-color: brown;
-            transition: 1s;
         }
         body
         {
@@ -22,7 +21,13 @@
             background-color: brown;
             transition: 1ms;
         }
+        .container
+        {
+            text-align: right;
+        }
     </style>
+    <!-- basicamente usei style com H1,2,3 e 4 e o hover para deixar a pagina bonitinha-->
+    <!--O container eu coloquei para poder deixar a imagem na direita-->
 </head>
 <body>
     <hr>
@@ -31,6 +36,7 @@
     <h2>Selecione a quantidade de milkshake que vocé quer</h2>
     <label>Milkshake de 300ml por 15 Reais</label>
     <input type="Number" id="Shake300ml">
+    <!-- os input Number são para colocar  um numero na caixinha que vai aparecer-->
     <label>Milkshake de 500ml por 20 reais</label>
     <input type="Number" id="Shake500ml">
     <br>
@@ -42,6 +48,9 @@
     </h3>
     <hr>
     <a href="paginainicial.html">VOLTAR PARA PAGINA INICIAL</a>
+    <div class="container">
+    <img src="img/chocolate-milk-2605479468.jpg" alt="Milkshake" width="30%"></div>
+    <!--Criei uma div pra colocar a imagem dentro dela e assim no style ali em cima poder colocar o container pra imagem ficar na direita-->
 </body>
 <script src="JSpast/milkshake.js"></script>
 <!--Aqui usei pra chamar a pasta com o arquivo java-->

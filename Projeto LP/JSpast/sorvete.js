@@ -12,4 +12,4 @@ function calculo()
        alert("O preço do sorvete é: R$"+semdesconto);
     }
 }
-//criei a função para calcular as bolas de sorvete, se passar de 3 é colocado um desconto de 16%
+//criei a função com if para calcular as bolas de sorvete, se passar de 3 é colocado um desconto de 16%

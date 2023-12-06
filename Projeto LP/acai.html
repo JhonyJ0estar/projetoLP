@@ -12,11 +12,7 @@
        {
         color: white;
         text-align: center;
-       }
-       h1:hover
-       {
         background-color: purple;
-        transition: 2s;
        }
        h2
        {
@@ -31,8 +27,13 @@
         background-color: purple;
         transition: 1ms;
        }
+       .container
+       {
+        text-align: right;
+       }
     </style>
-    <!-- basicamente usei style com H1,2,3 e 4 para deixar a pagina bonitinha-->
+    <!-- basicamente usei style com H1,2,3 e 4 e o hover para deixar a pagina bonitinha-->
+    <!--O container eu coloquei para poder deixar a imagem na direita-->
 </head>
 <body>
     <hr>
@@ -42,6 +43,7 @@
     <h3>
     <label>Açaí de 300ml</label>
     <input type="Number" id="A300ml">
+    <!-- os input Number são para colocar  um numero na caixinha que vai aparecer-->
     <label>Açaí de 600ml</label>
     <input type="Number" id="A600ml">
     <br>
@@ -56,6 +58,9 @@
     </h4>
     <hr>
     <a href="paginainicial.html">VOlTAR PARA PAGINA INICIAL</a>
+    <div class="container">
+        <img src="img/1-como-fazer-sorvete-de-acai-para-vender-954130399.jpg" alt="Acai" width="25%"></div>
+        <!--Criei uma div pra colocar a imagem dentro dela e assim no style ali em cima poder colocar o container pra imagem ficar na direita-->
 </body>
 <script src="JSpast/acai.js"></script>
 <!--Aqui usei pra chamar a pasta com o arquivo java-->

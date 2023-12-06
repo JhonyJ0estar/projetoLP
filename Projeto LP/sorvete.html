@@ -15,11 +15,7 @@
        h1
        {
         text-align: center;
-       }
-       h1:hover
-       {
-        background-color: blue;
-        transition: 1s;
+        background-color: aquamarine;
        }
        h3:hover 
        {
@@ -27,6 +23,8 @@
         transition: 1ms;
        }
     </style>
+    <!-- basicamente usei style com H1,2,3 e 4 e o hover para deixar a pagina bonitinha-->
+    <!--O container eu coloquei para poder deixar a imagem na direita-->
 </head>
 <body>
     <hr>
@@ -36,6 +34,7 @@
     <p>Cada bola é 8 reais mais de 3 e voce ganha um desconto de 16%</p>
     <label>Quantidade de bolas</label>
     <input type="Number" id="Bola">
+    <!-- os input Number são para colocar  um numero na caixinha que vai aparecer-->
     <br>
     <h3>
     <input type="button" id="calculo" value="Calcular" onclick="calculo()">
@@ -44,7 +43,9 @@
     <br>
     <a href="paginainicial.html">VOLTAR PARA PAGINA INICIAL</a>
     <div class="container">
+    <!--Criei uma div pra colocar a imagem dentro dela e assim no style ali em cima poder colocar o container pra imagem ficar na direita-->
     <img src="img/receita-sorvete-expresso-4149366758.jpg" alt="sorvete" width="30%"></div>
+    <!--Criei uma pasta chamada img com uma foto de um sorvete e chamei ela dentro da div-->
 </body>
 <script src="JSpast/sorvete.js"></script>
 <!--Aqui usei pra chamar a pasta com o arquivo java-->
